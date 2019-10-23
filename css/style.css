@@ -6,7 +6,6 @@ body{
   line-height: 24px;
   font-weight: 700;
   color: #000000;
-
 }
 
 .visually-hidden {
@@ -18,4 +17,12 @@ body{
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.main-header{
+	  background-color: #000000;
+  background-image: url("../img/bg-header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 }
