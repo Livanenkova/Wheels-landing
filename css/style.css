@@ -7,11 +7,8 @@ body{
   font-weight: 700;
   color: #ffffff;
   background-color: #ffffff;
-    background-image: url(../img/bg-header-image.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-
-
+  background-image: url(../img/bg-header-image.jpg);
+  background-repeat: no-repeat;
 }
 
 .visually-hidden {
@@ -25,14 +22,7 @@ body{
   overflow: hidden;
 }
 
-/*.main-header{
-	color: #ffffff;
-	background-color: #000000;
-  background-image: url("../img/background-statistics.jpg");
-  background-position:  center center;
-  background-repeat: no-repeat;
-  text-decoration: none;
-    background-attachment:fixed;
-    background-position:center;
+.main-header {
+	padding-top: 50px;
+
 }
-*/
