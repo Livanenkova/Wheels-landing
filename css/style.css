@@ -9,6 +9,7 @@ body{
   background-color: #ffffff;
   background-image: url(../img/bg-header-image.jpg);
   background-repeat: no-repeat;
+  background-size: right center;
 }
 
 .visually-hidden {
@@ -24,5 +25,11 @@ body{
 
 .main-header {
 	padding-top: 50px;
+  color: #ffffff;
+}
+.name-header{
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-left: 45px;
 
 }
