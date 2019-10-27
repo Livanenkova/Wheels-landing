@@ -1,4 +1,4 @@
-body{
+ body{
 	margin: 0;
 	padding: 0;
   font-family: 'Raleway', sans-serif;
@@ -31,5 +31,15 @@ body{
 	font-size: 24px;
 	text-transform: uppercase;
 	padding-left: 45px;
+}
 
+.main-navigation-title{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.container{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
