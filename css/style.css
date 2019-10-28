@@ -30,6 +30,7 @@
 .main-navigation{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-navigation-item{
@@ -49,4 +50,18 @@
 .site-navigation a, .main-navigation-item a{
   list-style: none;
   padding: 25px 30px;
+  text-decoration: none;
+  color: #ffffff;
 }
+
+/*.main-navigation-link
+{
+  float: right;
+  width: 50%;
+}
+
+.main-navigarion-hamburger-menu{
+  float: right;
+  text-align: right;
+  width: 50%;
+}*/
