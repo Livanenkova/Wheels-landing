@@ -32,7 +32,7 @@
   flex-direction: row;
 }
 
-.main-navigation-title{
+.main-navigation-item{
   font-size: 24px;
   text-transform: uppercase;
   list-style: none;
@@ -45,4 +45,8 @@
 
 .main-header{
  list-style: none;
+}
+.site-navigation a, .main-navigation-item a{
+  list-style: none;
+  padding: 25px 30px;
 }
