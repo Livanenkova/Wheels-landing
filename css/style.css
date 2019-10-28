@@ -27,19 +27,22 @@
 	padding-top: 50px;
   color: #ffffff;
 }
-.name-header{
-	font-size: 24px;
-	text-transform: uppercase;
-	padding-left: 45px;
+.main-navigation{
+  display: flex;
+  flex-direction: row;
 }
 
 .main-navigation-title{
   font-size: 24px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .container{
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
+}
+
+.main-header{
+ list-style: none;
 }
