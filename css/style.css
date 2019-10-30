@@ -30,10 +30,9 @@
 }
 
 .main-header {
-	padding: 0px 0px 50px;
+	padding: 0px 0px 180px;
   color: #ffffff;
   list-style: none;
-
 }
 
 .main-navigation{
@@ -41,8 +40,8 @@
   flex-direction: row;
   justify-content: space-between;
   line-height: 40px;
-  padding: 50px 0px 50px;
-  margin: 40px 0px 50px;
+  padding: 50px 0px 90px;
+  margin: 50px 0px 90px;
 }
 
 .main-navigation-item{
@@ -67,13 +66,14 @@
 }
 
 .wrapper{
-  width: 200px;
+  width: 170px;
   background-color: #000;
   position: relative;
   color: white;
   text-align: center;
   height: 40px;
   margin-right: 110px;
+  font-size: 32px;
 }
 
 #check-menu{
@@ -93,10 +93,10 @@ label{
 
 .burger-line{
   position: absolute;
-  top: 8px;
+  top: 9px;
   right: 10px;
   width: 20px;
-  height: 4px;
+  height: 3px;
   background-color: #fff;
   transition: .5s all;
 }
@@ -106,7 +106,7 @@ label{
 }
 
 .fourth{
-  top: 28px;
+  top: 27px;
 }
 
 .main-menu{
@@ -157,11 +157,12 @@ a:hover{
   display: none;
 }
 .headline-wrapper{
-  margin: 80px 50px 100px;
-  padding: 80px 0px 0px 0px;
+  margin: 70px 50px 100px;
+  padding: 70px 0px 0px 0px;
   text-align: right;
 }
 .headline-title{
-  padding: 50px 0px 0px 0px;
-  font-size: 48px;
+  padding: 60px 0px 0px 0px;
+  font-size: 35px;
+  text-transform: uppercase;
 }
