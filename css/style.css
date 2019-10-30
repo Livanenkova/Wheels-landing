@@ -63,7 +63,6 @@
   font-weight: bold;
 }
 
-
 .wrapper{
   width: 200px;
   background-color: #000;
@@ -124,7 +123,7 @@ label{
 .main-menu a{
   display: block;
   width: 100%;
-  padding: 8px;
+  padding: 2px;
   color: white;
   text-decoration: none;
   border-top: 1px solid rgba(255,255,255,.3);
