@@ -30,8 +30,10 @@
 }
 
 .main-header {
-	padding: 60px 0px 50px;
+	padding: 0px 0px 50px;
   color: #ffffff;
+  list-style: none;
+
 }
 
 .main-navigation{
@@ -39,17 +41,16 @@
   flex-direction: row;
   justify-content: space-between;
   line-height: 40px;
+  padding: 50px 0px 50px;
+  margin: 40px 0px 50px;
 }
 
 .main-navigation-item{
-  font-size: 24px;
+  font-size: 28px;
   text-transform: uppercase;
   list-style: none;
   font-family: 'Maven Pro', sans-serif;
-}
-
-.main-header{
- list-style: none;
+  letter-spacing:2px;
 }
 
 .site-navigation a, .main-navigation-item a{
@@ -61,6 +62,8 @@
 
 .main-navigation-link{
   font-weight: bold;
+  font-size: 32px;
+  letter-spacing:3px;
 }
 
 .wrapper{
@@ -70,8 +73,7 @@
   color: white;
   text-align: center;
   height: 40px;
-  font-family: 'Arial';
-  margin-right: 80px;
+  margin-right: 110px;
 }
 
 #check-menu{
@@ -93,8 +95,8 @@ label{
   position: absolute;
   top: 8px;
   right: 10px;
-  width: 35px;
-  height: 2px;
+  width: 20px;
+  height: 4px;
   background-color: #fff;
   transition: .5s all;
 }
@@ -153,4 +155,13 @@ a:hover{
 
 #check-menu:checked ~ .fourth{
   display: none;
+}
+.headline-wrapper{
+  margin: 80px 50px 100px;
+  padding: 80px 0px 0px 0px;
+  text-align: right;
+}
+.headline-title{
+  padding: 50px 0px 0px 0px;
+  font-size: 48px;
 }
