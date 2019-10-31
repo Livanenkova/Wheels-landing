@@ -52,12 +52,19 @@
   letter-spacing:2px;
 }
 
-.site-navigation a, .main-navigation-item a{
+.main-navigation-item a{
   list-style: none;
   padding: 25px 50px;
   text-decoration: none;
   color: #ffffff;
 }
+
+
+.main-menu a:hover,
+.main-menu a:focus{
+  background-color: #242424;
+}
+
 
 .main-navigation-link{
   font-weight: bold;
@@ -185,4 +192,13 @@ a:hover{
 
 .navbar{
   padding: 0px 0px 0px 0px;
+}
+
+.nav-item{
+  list-style: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
 }
