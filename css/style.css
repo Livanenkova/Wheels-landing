@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
   font-family: 'Raleway', sans-serif;
-  font-weight:bold
+  font-weight:bold;
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
@@ -30,7 +30,7 @@
 }
 
 .main-header {
-	padding: 0px 0px 180px;
+	padding: 0px 0px 100px;
   color: #ffffff;
   list-style: none;
 }
@@ -157,12 +157,32 @@ a:hover{
   display: none;
 }
 .headline-wrapper{
-  margin: 70px 50px 100px;
+  margin: 70px 50px 150px 100px;
   padding: 70px 0px 0px 0px;
   text-align: right;
 }
 .headline-title{
   padding: 60px 0px 0px 0px;
-  font-size: 35px;
+  font-size: 24px;
   text-transform: uppercase;
+  letter-spacing:0.8px;
+}
+
+.headline-slogan{
+  padding: 10px 0px 6px 190px;
+}
+
+.headline-copyright{
+  font-style: normal;
+  padding: 0px 0px 100px 0px;
+}
+
+.icon-mouse{
+  display: block;
+  margin: 0 auto;
+  padding: 180px 0px 0px 0px;
+}
+
+.navbar{
+  padding: 0px 0px 0px 0px;
 }
