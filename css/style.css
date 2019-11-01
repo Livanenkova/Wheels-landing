@@ -30,7 +30,7 @@
 }
 
 .main-header {
-	padding: 0px 0px 100px;
+	padding: 0px 0px 80px;
   color: #ffffff;
   list-style: none;
 }
@@ -199,6 +199,14 @@ a:hover{
 }
 
 .nav{
+  background-color: #ffffff;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  padding-left: 5px;
+  position: sticky;
+}
+
+.nav-item a{
+  text-decoration: none;
 }
