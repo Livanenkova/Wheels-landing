@@ -211,3 +211,11 @@ a:hover{
 .nav-item a{
   text-decoration: none;
 }
+
+.nav-item-title
+{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+ty pidor
