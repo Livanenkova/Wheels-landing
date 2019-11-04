@@ -193,10 +193,8 @@ a:hover{
 }
 
 .navbar{
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 30px 0px;
-  border-bottom: 1px solid grey;
-
+/*  padding: 0px 0px 0px 0px;*/
+  margin: 0px 0px 0px 0px;
 }
 
 .nav-item{
@@ -215,22 +213,48 @@ a:hover{
   color: #979390;
 }
 
-
-.nav-item-title
-{
+.nav-item-title{
   font-weight: bold;
   font-size: 30px;
   color: #000000;
 }
 
-.nav-item a:hover,
-.nav-item a:focus{
-background-color: #CEC9C9;
+.nav-item a:hover{
+  background-color: #CEC9C9;
 }
+
+.nav-item a:focus{
+  background-color:#a79e9e
+}
+
  .nav-item-title ,.nav-item a{
   text-decoration: none;
   color: black;
   display: block;
-  padding: 25px 20px;
-/*  vertical-align: middle;*/
+  padding-top: 25px;
+}
+.nav-item-link a{
+   padding: 25px 30px 20px 30px; 
+   font-size: 20px;
+}
+
+.about{
+  background-image: url(../img/bg-team.jpg);
+  text-align: center;
+  padding-top: 10px;
+}
+.about-title{
+  font-size: 30px;
+  letter-spacing:2px;
+  font-weight: bold;
+}
+.navbar ul{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.about-text{
+  padding: 10px 70px 10px 70px;
+  font-size: 14px;
+  font-weight: bold;
 }
