@@ -258,3 +258,7 @@ a:hover{
   font-size: 14px;
   font-weight: bold;
 }
+
+.statistic{
+  background-image: url(../img/background-statistics.jpg);
+}
