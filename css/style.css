@@ -254,9 +254,24 @@ a:hover{
   padding: 10px 150px 60px 150px;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .statistic{
   background-image: url(../img/background-statistics.jpg);
   color: #ffffff;
+  text-align: center;
+}
+
+.statistic-list{
+  display: flex;
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+.statistic-title{
+  margin-top: 0px;
+  padding-top: 90px;
+  font-size: 30px;
 }
