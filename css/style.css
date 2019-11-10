@@ -311,7 +311,8 @@ a:hover{
 .catalog-list{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
+  padding-left: 0px;
 }
 .catalog-item{
   margin-right: 30px;
@@ -322,4 +323,16 @@ a:hover{
   font-size: 18px;
   letter-spacing:1px;
   font-weight: bold;
+}
+
+.team {
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url(../img/bg-team.jpg);
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+
 }
