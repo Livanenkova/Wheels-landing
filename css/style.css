@@ -13,7 +13,7 @@
   background-size:center;
 }
 
- a{
+a{
   text-decoration: none;
 }
 
@@ -279,6 +279,8 @@ a:hover{
 }
 .statistic-text{
   font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .statistic-item:first-child{
@@ -287,6 +289,37 @@ a:hover{
 .statistic-item:last-child{
   padding-right: 150px;
 }
-.statistic_number{
+.statistic-number{
   font-size: 72px;
+  margin-bottom: 50px;
+}
+
+.catalog {
+  text-align:center;
+  padding-top: 30px;
+}
+.catalog-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.catalog-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.catalog-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.catalog-item{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.catalog-slogan{
+  font-size: 18px;
+  letter-spacing:1px;
+  font-weight: bold;
 }
