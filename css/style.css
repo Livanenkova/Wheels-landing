@@ -297,10 +297,12 @@ a:hover{
 .catalog {
   text-align:center;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 .catalog-title {
   font-size: 30px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .catalog-wrapper{
@@ -319,6 +321,23 @@ a:hover{
   margin-left: 30px;
 }
 
+.item-price{
+  font-size: 24px;
+}
+
+.item-link{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.item-link:hover{
+  background-color: #e0e0eb;
+}
+
+.item-link:focus{
+  background-color: #d0d0e1;
+}
+
 .catalog-slogan{
   font-size: 18px;
   letter-spacing:1px;
@@ -329,10 +348,53 @@ a:hover{
   text-align: center;
   background-color: #ffffff;
   background-image: url(../img/bg-team.jpg);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list {
   display: flex;
   justify-content: space-between;
+}
+
+.team-title{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  font-weight: bold;
+}
+
+.team-item{
+  padding-top: 20px;
+}
+
+
+.social{
+  text-align: center;
+}
+
+
+.footer{
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url(../img/bg-footer.jpg);
+  color: #ffffff;
 
 }
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.quick-links{
+  color: #ffffff;
+
+}
+
+.quick-links a:hover,
+.quick-links a:focus{
+  background-color: #242424;
+}
+
