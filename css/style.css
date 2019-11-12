@@ -319,6 +319,7 @@ a:hover{
 .catalog-item{
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 .item-price{
@@ -368,11 +369,9 @@ a:hover{
   padding-top: 20px;
 }
 
-
 .social{
   text-align: center;
 }
-
 
 .footer{
   text-align: center;
