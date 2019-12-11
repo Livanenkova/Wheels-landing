@@ -401,3 +401,7 @@ a:hover{
   background-color: #242424;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+}
